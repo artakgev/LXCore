@@ -82,6 +82,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEBE5BEB2A47A67400725239 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
 		CEDE51452963230C00208C0A /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +125,7 @@
 		CEFF93B72958F1A100BFEA1F /* LXCore */ = {
 			isa = PBXGroup;
 			children = (
+				CEBE5BEB2A47A67400725239 /* NetworkLayer */,
 				CEFF93D02958F1D100BFEA1F /* Extensions */,
 				CEFF93B82958F1A100BFEA1F /* iOSCore.h */,
 				CEFF93B92958F1A100BFEA1F /* LXCore.docc */,
