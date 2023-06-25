@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEBE5BED2A485F7200725239 /* LXNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE5BEC2A485F7200725239 /* LXNetworkLayer.swift */; };
 		CEDE51472963232700208C0A /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE51462963232700208C0A /* UILabel+Extensions.swift */; };
 		CEDE51482963232700208C0A /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE51462963232700208C0A /* UILabel+Extensions.swift */; };
 		CEDE514A296323A200208C0A /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE5149296323A200208C0A /* UIDevice+Extensions.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEBE5BEC2A485F7200725239 /* LXNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXNetworkLayer.swift; sourceTree = "<group>"; };
 		CEDE51462963232700208C0A /* UILabel+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
 		CEDE5149296323A200208C0A /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
 		CEDE514C2963240C00208C0A /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		CEBE5BEB2A47A67400725239 /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				CEBE5BEC2A485F7200725239 /* LXNetworkLayer.swift */,
 			);
 			path = NetworkLayer;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				CEDE517129632B8100208C0A /* UIScrollView+Extensions.swift in Sources */,
 				CEFF93D22958F20900BFEA1F /* Double+Extensions.swift in Sources */,
 				CEDE514D2963240C00208C0A /* UIView+Nib.swift in Sources */,
+				CEBE5BED2A485F7200725239 /* LXNetworkLayer.swift in Sources */,
 				CEDE516E29632B0900208C0A /* Codable+Extended.swift in Sources */,
 				CEFF93BA2958F1A100BFEA1F /* LXCore.docc in Sources */,
 			);
