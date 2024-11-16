@@ -7,7 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEBE5BED2A485F7200725239 /* LXNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBE5BEC2A485F7200725239 /* LXNetworkLayer.swift */; };
+		3B1816A8D6F123E796258DBD /* Pods_LXCore_LXCoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A576B70D571055AE70C40E17 /* Pods_LXCore_LXCoreTests.framework */; };
+		4E01C9602AE6AB8B0028900E /* LXConstantsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01C95F2AE6AB8B0028900E /* LXConstantsManager.swift */; };
+		4E01C9632AE6ABA30028900E /* LXBaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01C9622AE6ABA30028900E /* LXBaseRepository.swift */; };
+		4E01C9662AE6ABC60028900E /* LXConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01C9652AE6ABC60028900E /* LXConstants.swift */; };
+		4E01C9692AE6ABD90028900E /* LXTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01C9682AE6ABD90028900E /* LXTargetType.swift */; };
+		4E01C96C2AE6AC7C0028900E /* LXCodableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01C96B2AE6AC7C0028900E /* LXCodableService.swift */; };
+		4E01C96F2AE6AD250028900E /* LXNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01C96E2AE6AD250028900E /* LXNetworkResponse.swift */; };
+		4E01C9722AE6AF960028900E /* LXCodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E01C9712AE6AF960028900E /* LXCodableExtension.swift */; };
+		4E1BB800AE42B495339C479E /* Pods_LXCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF282130E2477D89E3B38C9 /* Pods_LXCore.framework */; };
+		CE91512C2AEC52E900032516 /* LXCoreConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9151252AEC52E900032516 /* LXCoreConstraints.swift */; };
+		CE91512D2AEC52E900032516 /* LXCoreInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9151272AEC52E900032516 /* LXCoreInputView.swift */; };
+		CE91512E2AEC52E900032516 /* LXCoreInputViewUserSpecifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9151282AEC52E900032516 /* LXCoreInputViewUserSpecifications.swift */; };
+		CE91512F2AEC52E900032516 /* LXCoreInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9151292AEC52E900032516 /* LXCoreInputView.xib */; };
+		CE9151302AEC52E900032516 /* LXCoreUIKitElementStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91512B2AEC52E900032516 /* LXCoreUIKitElementStyles.swift */; };
+		CE9151342AEC534500032516 /* LXCoreActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9151322AEC534500032516 /* LXCoreActivityIndicatorView.swift */; };
+		CE9151352AEC534500032516 /* LXCoreGradientArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9151332AEC534500032516 /* LXCoreGradientArcView.swift */; };
+		CE9151372AEC538800032516 /* LXCoreActivityIndicatorUserSpecifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9151362AEC538800032516 /* LXCoreActivityIndicatorUserSpecifications.swift */; };
+		CE9151402AEC5A4900032516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91513F2AEC5A4900032516 /* AppDelegate.swift */; };
+		CE9151422AEC5A4900032516 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9151412AEC5A4900032516 /* SceneDelegate.swift */; };
+		CE9151442AEC5A4900032516 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9151432AEC5A4900032516 /* ViewController.swift */; };
+		CE9151472AEC5A4900032516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9151452AEC5A4900032516 /* Main.storyboard */; };
+		CE9151492AEC5A4B00032516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9151482AEC5A4B00032516 /* Assets.xcassets */; };
+		CE91514C2AEC5A4B00032516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE91514A2AEC5A4B00032516 /* LaunchScreen.storyboard */; };
+		CE9151572AEC5A4C00032516 /* LXCoreExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9151562AEC5A4C00032516 /* LXCoreExampleTests.swift */; };
+		CE9151612AEC5A4C00032516 /* LXCoreExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9151602AEC5A4C00032516 /* LXCoreExampleUITests.swift */; };
+		CE9151632AEC5A4C00032516 /* LXCoreExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9151622AEC5A4C00032516 /* LXCoreExampleUITestsLaunchTests.swift */; };
 		CEDE51472963232700208C0A /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE51462963232700208C0A /* UILabel+Extensions.swift */; };
 		CEDE51482963232700208C0A /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE51462963232700208C0A /* UILabel+Extensions.swift */; };
 		CEDE514A296323A200208C0A /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE5149296323A200208C0A /* UIDevice+Extensions.swift */; };
@@ -30,12 +55,33 @@
 		CEDE517E29632C0600208C0A /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDE517C29632C0600208C0A /* UIImage+Extensions.swift */; };
 		CEFF93BA2958F1A100BFEA1F /* LXCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = CEFF93B92958F1A100BFEA1F /* LXCore.docc */; };
 		CEFF93C02958F1A100BFEA1F /* LXCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFF93B52958F1A100BFEA1F /* LXCore.framework */; };
-		CEFF93C52958F1A100BFEA1F /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF93C42958F1A100BFEA1F /* StringExtensionTests.swift */; };
+		CEFF93C52958F1A100BFEA1F /* LXCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF93C42958F1A100BFEA1F /* LXCoreTests.swift */; };
 		CEFF93C62958F1A100BFEA1F /* iOSCore.h in Headers */ = {isa = PBXBuildFile; fileRef = CEFF93B82958F1A100BFEA1F /* iOSCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEFF93D22958F20900BFEA1F /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF93D12958F20900BFEA1F /* Double+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CE9151532AEC5A4C00032516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFF93AC2958F1A100BFEA1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE91513C2AEC5A4900032516;
+			remoteInfo = LXCoreExample;
+		};
+		CE91515D2AEC5A4C00032516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFF93AC2958F1A100BFEA1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE91513C2AEC5A4900032516;
+			remoteInfo = LXCoreExample;
+		};
+		CE91516D2AEC5A9C00032516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFF93AC2958F1A100BFEA1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFF93B42958F1A100BFEA1F;
+			remoteInfo = LXCore;
+		};
 		CEFF93C12958F1A100BFEA1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CEFF93AC2958F1A100BFEA1F /* Project object */;
@@ -46,7 +92,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CEBE5BEC2A485F7200725239 /* LXNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXNetworkLayer.swift; sourceTree = "<group>"; };
+		2BF282130E2477D89E3B38C9 /* Pods_LXCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E01C95F2AE6AB8B0028900E /* LXConstantsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXConstantsManager.swift; sourceTree = "<group>"; };
+		4E01C9622AE6ABA30028900E /* LXBaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXBaseRepository.swift; sourceTree = "<group>"; };
+		4E01C9652AE6ABC60028900E /* LXConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXConstants.swift; sourceTree = "<group>"; };
+		4E01C9682AE6ABD90028900E /* LXTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXTargetType.swift; sourceTree = "<group>"; };
+		4E01C96B2AE6AC7C0028900E /* LXCodableService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCodableService.swift; sourceTree = "<group>"; };
+		4E01C96E2AE6AD250028900E /* LXNetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXNetworkResponse.swift; sourceTree = "<group>"; };
+		4E01C9712AE6AF960028900E /* LXCodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCodableExtension.swift; sourceTree = "<group>"; };
+		6DA4AA67C1396766C15E4A78 /* Pods-LXCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXCore.debug.xcconfig"; path = "Target Support Files/Pods-LXCore/Pods-LXCore.debug.xcconfig"; sourceTree = "<group>"; };
+		82DCB89B91FF1965D8D77D53 /* Pods-LXCore-LXCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXCore-LXCoreTests.debug.xcconfig"; path = "Target Support Files/Pods-LXCore-LXCoreTests/Pods-LXCore-LXCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A660ACC341C735B70C38A48 /* Pods-LXCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXCore.release.xcconfig"; path = "Target Support Files/Pods-LXCore/Pods-LXCore.release.xcconfig"; sourceTree = "<group>"; };
+		A576B70D571055AE70C40E17 /* Pods_LXCore_LXCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXCore_LXCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B4DD7B8D815191DEC77EB2 /* Pods-LXCore-LXCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXCore-LXCoreTests.release.xcconfig"; path = "Target Support Files/Pods-LXCore-LXCoreTests/Pods-LXCore-LXCoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE9151252AEC52E900032516 /* LXCoreConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXCoreConstraints.swift; sourceTree = "<group>"; };
+		CE9151272AEC52E900032516 /* LXCoreInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXCoreInputView.swift; sourceTree = "<group>"; };
+		CE9151282AEC52E900032516 /* LXCoreInputViewUserSpecifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXCoreInputViewUserSpecifications.swift; sourceTree = "<group>"; };
+		CE9151292AEC52E900032516 /* LXCoreInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXCoreInputView.xib; sourceTree = "<group>"; };
+		CE91512B2AEC52E900032516 /* LXCoreUIKitElementStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXCoreUIKitElementStyles.swift; sourceTree = "<group>"; };
+		CE9151322AEC534500032516 /* LXCoreActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXCoreActivityIndicatorView.swift; sourceTree = "<group>"; };
+		CE9151332AEC534500032516 /* LXCoreGradientArcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXCoreGradientArcView.swift; sourceTree = "<group>"; };
+		CE9151362AEC538800032516 /* LXCoreActivityIndicatorUserSpecifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXCoreActivityIndicatorUserSpecifications.swift; sourceTree = "<group>"; };
+		CE91513D2AEC5A4900032516 /* LXCoreExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXCoreExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE91513F2AEC5A4900032516 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE9151412AEC5A4900032516 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE9151432AEC5A4900032516 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE9151462AEC5A4900032516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE9151482AEC5A4B00032516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE91514B2AEC5A4B00032516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE91514D2AEC5A4B00032516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9151522AEC5A4C00032516 /* LXCoreExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXCoreExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9151562AEC5A4C00032516 /* LXCoreExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreExampleTests.swift; sourceTree = "<group>"; };
+		CE91515C2AEC5A4C00032516 /* LXCoreExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXCoreExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9151602AEC5A4C00032516 /* LXCoreExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreExampleUITests.swift; sourceTree = "<group>"; };
+		CE9151622AEC5A4C00032516 /* LXCoreExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEBE5BFE2A48C1EA00725239 /* LXIOSCoreNetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXIOSCoreNetworkLayer.swift; sourceTree = "<group>"; };
+		CEBE5BFF2A48C1EA00725239 /* LXIOSCoreNetworkLayerTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXIOSCoreNetworkLayerTargetType.swift; sourceTree = "<group>"; };
+		CEBE5C002A48C1EA00725239 /* LXIOSCoreNetworkLayerBaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXIOSCoreNetworkLayerBaseRepository.swift; sourceTree = "<group>"; };
 		CEDE51462963232700208C0A /* UILabel+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
 		CEDE5149296323A200208C0A /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
 		CEDE514C2963240C00208C0A /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
@@ -61,15 +143,37 @@
 		CEFF93B82958F1A100BFEA1F /* iOSCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSCore.h; sourceTree = "<group>"; };
 		CEFF93B92958F1A100BFEA1F /* LXCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LXCore.docc; sourceTree = "<group>"; };
 		CEFF93BF2958F1A100BFEA1F /* LXCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFF93C42958F1A100BFEA1F /* StringExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
+		CEFF93C42958F1A100BFEA1F /* LXCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXCoreTests.swift; sourceTree = "<group>"; };
 		CEFF93D12958F20900BFEA1F /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CE91513A2AEC5A4900032516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE91514F2AEC5A4C00032516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9151592AEC5A4C00032516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEFF93B22958F1A100BFEA1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1BB800AE42B495339C479E /* Pods_LXCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,16 +182,173 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEFF93C02958F1A100BFEA1F /* LXCore.framework in Frameworks */,
+				3B1816A8D6F123E796258DBD /* Pods_LXCore_LXCoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CEBE5BEB2A47A67400725239 /* NetworkLayer */ = {
+		46E01A3C257ADE0F29E7A1AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEBE5BEC2A485F7200725239 /* LXNetworkLayer.swift */,
+				2BF282130E2477D89E3B38C9 /* Pods_LXCore.framework */,
+				A576B70D571055AE70C40E17 /* Pods_LXCore_LXCoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E01C95E2AE6AB7A0028900E /* LXConstantsManager */ = {
+			isa = PBXGroup;
+			children = (
+				4E01C95F2AE6AB8B0028900E /* LXConstantsManager.swift */,
+			);
+			path = LXConstantsManager;
+			sourceTree = "<group>";
+		};
+		4E01C9612AE6AB9E0028900E /* LXBaseRepository */ = {
+			isa = PBXGroup;
+			children = (
+				4E01C9622AE6ABA30028900E /* LXBaseRepository.swift */,
+			);
+			path = LXBaseRepository;
+			sourceTree = "<group>";
+		};
+		4E01C9642AE6ABC10028900E /* LXConstants */ = {
+			isa = PBXGroup;
+			children = (
+				4E01C9652AE6ABC60028900E /* LXConstants.swift */,
+			);
+			path = LXConstants;
+			sourceTree = "<group>";
+		};
+		4E01C9672AE6ABD60028900E /* LXTargetType */ = {
+			isa = PBXGroup;
+			children = (
+				4E01C9682AE6ABD90028900E /* LXTargetType.swift */,
+			);
+			path = LXTargetType;
+			sourceTree = "<group>";
+		};
+		4E01C96A2AE6AC660028900E /* LXCodableService */ = {
+			isa = PBXGroup;
+			children = (
+				4E01C96B2AE6AC7C0028900E /* LXCodableService.swift */,
+			);
+			path = LXCodableService;
+			sourceTree = "<group>";
+		};
+		4E01C96D2AE6AD0E0028900E /* LXNetworkResponse */ = {
+			isa = PBXGroup;
+			children = (
+				4E01C96E2AE6AD250028900E /* LXNetworkResponse.swift */,
+			);
+			path = LXNetworkResponse;
+			sourceTree = "<group>";
+		};
+		4E01C9702AE6AF850028900E /* LXCodableExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4E01C9712AE6AF960028900E /* LXCodableExtension.swift */,
+			);
+			path = LXCodableExtension;
+			sourceTree = "<group>";
+		};
+		5B6C7B8D205A295CC01BC1DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DA4AA67C1396766C15E4A78 /* Pods-LXCore.debug.xcconfig */,
+				9A660ACC341C735B70C38A48 /* Pods-LXCore.release.xcconfig */,
+				82DCB89B91FF1965D8D77D53 /* Pods-LXCore-LXCoreTests.debug.xcconfig */,
+				A7B4DD7B8D815191DEC77EB2 /* Pods-LXCore-LXCoreTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE9151232AEC52E900032516 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				CE9151242AEC52E900032516 /* Constraints */,
+				CE9151312AEC530D00032516 /* LXCoreActivityIndicator */,
+				CE9151262AEC52E900032516 /* LXCoreInputView */,
+				CE91512A2AEC52E900032516 /* Styles */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		CE9151242AEC52E900032516 /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				CE9151252AEC52E900032516 /* LXCoreConstraints.swift */,
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
+		CE9151262AEC52E900032516 /* LXCoreInputView */ = {
+			isa = PBXGroup;
+			children = (
+				CE9151272AEC52E900032516 /* LXCoreInputView.swift */,
+				CE9151282AEC52E900032516 /* LXCoreInputViewUserSpecifications.swift */,
+				CE9151292AEC52E900032516 /* LXCoreInputView.xib */,
+			);
+			path = LXCoreInputView;
+			sourceTree = "<group>";
+		};
+		CE91512A2AEC52E900032516 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				CE91512B2AEC52E900032516 /* LXCoreUIKitElementStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		CE9151312AEC530D00032516 /* LXCoreActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				CE9151322AEC534500032516 /* LXCoreActivityIndicatorView.swift */,
+				CE9151332AEC534500032516 /* LXCoreGradientArcView.swift */,
+				CE9151362AEC538800032516 /* LXCoreActivityIndicatorUserSpecifications.swift */,
+			);
+			path = LXCoreActivityIndicator;
+			sourceTree = "<group>";
+		};
+		CE91513E2AEC5A4900032516 /* LXCoreExample */ = {
+			isa = PBXGroup;
+			children = (
+				CE91513F2AEC5A4900032516 /* AppDelegate.swift */,
+				CE9151412AEC5A4900032516 /* SceneDelegate.swift */,
+				CE9151432AEC5A4900032516 /* ViewController.swift */,
+				CE9151452AEC5A4900032516 /* Main.storyboard */,
+				CE9151482AEC5A4B00032516 /* Assets.xcassets */,
+				CE91514A2AEC5A4B00032516 /* LaunchScreen.storyboard */,
+				CE91514D2AEC5A4B00032516 /* Info.plist */,
+			);
+			path = LXCoreExample;
+			sourceTree = "<group>";
+		};
+		CE9151552AEC5A4C00032516 /* LXCoreExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9151562AEC5A4C00032516 /* LXCoreExampleTests.swift */,
+			);
+			path = LXCoreExampleTests;
+			sourceTree = "<group>";
+		};
+		CE91515F2AEC5A4C00032516 /* LXCoreExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9151602AEC5A4C00032516 /* LXCoreExampleUITests.swift */,
+				CE9151622AEC5A4C00032516 /* LXCoreExampleUITestsLaunchTests.swift */,
+			);
+			path = LXCoreExampleUITests;
+			sourceTree = "<group>";
+		};
+		CEBE5BFD2A48C1EA00725239 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CEBE5BFE2A48C1EA00725239 /* LXIOSCoreNetworkLayer.swift */,
+				CEBE5BFF2A48C1EA00725239 /* LXIOSCoreNetworkLayerTargetType.swift */,
+				CEBE5C002A48C1EA00725239 /* LXIOSCoreNetworkLayerBaseRepository.swift */,
 			);
 			path = NetworkLayer;
 			sourceTree = "<group>";
@@ -112,7 +373,12 @@
 			children = (
 				CEFF93B72958F1A100BFEA1F /* LXCore */,
 				CEFF93C32958F1A100BFEA1F /* LXCoreTests */,
+				CE91513E2AEC5A4900032516 /* LXCoreExample */,
+				CE9151552AEC5A4C00032516 /* LXCoreExampleTests */,
+				CE91515F2AEC5A4C00032516 /* LXCoreExampleUITests */,
 				CEFF93B62958F1A100BFEA1F /* Products */,
+				5B6C7B8D205A295CC01BC1DE /* Pods */,
+				46E01A3C257ADE0F29E7A1AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +387,9 @@
 			children = (
 				CEFF93B52958F1A100BFEA1F /* LXCore.framework */,
 				CEFF93BF2958F1A100BFEA1F /* LXCoreTests.xctest */,
+				CE91513D2AEC5A4900032516 /* LXCoreExample.app */,
+				CE9151522AEC5A4C00032516 /* LXCoreExampleTests.xctest */,
+				CE91515C2AEC5A4C00032516 /* LXCoreExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +397,17 @@
 		CEFF93B72958F1A100BFEA1F /* LXCore */ = {
 			isa = PBXGroup;
 			children = (
-				CEBE5BEB2A47A67400725239 /* NetworkLayer */,
+				4E01C9702AE6AF850028900E /* LXCodableExtension */,
+				4E01C96D2AE6AD0E0028900E /* LXNetworkResponse */,
+				4E01C96A2AE6AC660028900E /* LXCodableService */,
+				4E01C9672AE6ABD60028900E /* LXTargetType */,
+				4E01C9642AE6ABC10028900E /* LXConstants */,
+				4E01C9612AE6AB9E0028900E /* LXBaseRepository */,
+				4E01C95E2AE6AB7A0028900E /* LXConstantsManager */,
 				CEFF93D02958F1D100BFEA1F /* Extensions */,
 				CEFF93B82958F1A100BFEA1F /* iOSCore.h */,
+				CE9151232AEC52E900032516 /* UIComponents */,
+				CEBE5BFD2A48C1EA00725239 /* NetworkLayer */,
 				CEFF93B92958F1A100BFEA1F /* LXCore.docc */,
 			);
 			path = LXCore;
@@ -139,7 +416,7 @@
 		CEFF93C32958F1A100BFEA1F /* LXCoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEFF93C42958F1A100BFEA1F /* StringExtensionTests.swift */,
+				CEFF93C42958F1A100BFEA1F /* LXCoreTests.swift */,
 			);
 			path = LXCoreTests;
 			sourceTree = "<group>";
@@ -169,10 +446,65 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		CE91513C2AEC5A4900032516 /* LXCoreExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9151642AEC5A4C00032516 /* Build configuration list for PBXNativeTarget "LXCoreExample" */;
+			buildPhases = (
+				CE9151392AEC5A4900032516 /* Sources */,
+				CE91513A2AEC5A4900032516 /* Frameworks */,
+				CE91513B2AEC5A4900032516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE91516E2AEC5A9C00032516 /* PBXTargetDependency */,
+			);
+			name = LXCoreExample;
+			productName = LXCoreExample;
+			productReference = CE91513D2AEC5A4900032516 /* LXCoreExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE9151512AEC5A4C00032516 /* LXCoreExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9151672AEC5A4C00032516 /* Build configuration list for PBXNativeTarget "LXCoreExampleTests" */;
+			buildPhases = (
+				CE91514E2AEC5A4C00032516 /* Sources */,
+				CE91514F2AEC5A4C00032516 /* Frameworks */,
+				CE9151502AEC5A4C00032516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9151542AEC5A4C00032516 /* PBXTargetDependency */,
+			);
+			name = LXCoreExampleTests;
+			productName = LXCoreExampleTests;
+			productReference = CE9151522AEC5A4C00032516 /* LXCoreExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE91515B2AEC5A4C00032516 /* LXCoreExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE91516A2AEC5A4C00032516 /* Build configuration list for PBXNativeTarget "LXCoreExampleUITests" */;
+			buildPhases = (
+				CE9151582AEC5A4C00032516 /* Sources */,
+				CE9151592AEC5A4C00032516 /* Frameworks */,
+				CE91515A2AEC5A4C00032516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE91515E2AEC5A4C00032516 /* PBXTargetDependency */,
+			);
+			name = LXCoreExampleUITests;
+			productName = LXCoreExampleUITests;
+			productReference = CE91515C2AEC5A4C00032516 /* LXCoreExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		CEFF93B42958F1A100BFEA1F /* LXCore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEFF93C92958F1A100BFEA1F /* Build configuration list for PBXNativeTarget "LXCore" */;
 			buildPhases = (
+				37082095D568B1D458D842C2 /* [CP] Check Pods Manifest.lock */,
 				CEFF93B02958F1A100BFEA1F /* Headers */,
 				CEFF93B12958F1A100BFEA1F /* Sources */,
 				CEFF93B22958F1A100BFEA1F /* Frameworks */,
@@ -191,9 +523,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEFF93CC2958F1A100BFEA1F /* Build configuration list for PBXNativeTarget "LXCoreTests" */;
 			buildPhases = (
+				85C7E8762222A8662813E6B9 /* [CP] Check Pods Manifest.lock */,
 				CEFF93BB2958F1A100BFEA1F /* Sources */,
 				CEFF93BC2958F1A100BFEA1F /* Frameworks */,
 				CEFF93BD2958F1A100BFEA1F /* Resources */,
+				B20A4D9D520A670936507853 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,9 +546,20 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					CE91513C2AEC5A4900032516 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					CE9151512AEC5A4C00032516 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = CE91513C2AEC5A4900032516;
+					};
+					CE91515B2AEC5A4C00032516 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = CE91513C2AEC5A4900032516;
+					};
 					CEFF93B42958F1A100BFEA1F = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -238,15 +583,43 @@
 			targets = (
 				CEFF93B42958F1A100BFEA1F /* LXCore */,
 				CEFF93BE2958F1A100BFEA1F /* LXCoreTests */,
+				CE91513C2AEC5A4900032516 /* LXCoreExample */,
+				CE9151512AEC5A4C00032516 /* LXCoreExampleTests */,
+				CE91515B2AEC5A4C00032516 /* LXCoreExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CE91513B2AEC5A4900032516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE91514C2AEC5A4B00032516 /* LaunchScreen.storyboard in Resources */,
+				CE9151492AEC5A4B00032516 /* Assets.xcassets in Resources */,
+				CE9151472AEC5A4900032516 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9151502AEC5A4C00032516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE91515A2AEC5A4C00032516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEFF93B32958F1A100BFEA1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE91512F2AEC52E900032516 /* LXCoreInputView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,23 +632,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37082095D568B1D458D842C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85C7E8762222A8662813E6B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXCore-LXCoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B20A4D9D520A670936507853 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXCore-LXCoreTests/Pods-LXCore-LXCoreTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXCore-LXCoreTests/Pods-LXCore-LXCoreTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LXCore-LXCoreTests/Pods-LXCore-LXCoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		CE9151392AEC5A4900032516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9151442AEC5A4900032516 /* ViewController.swift in Sources */,
+				CE9151402AEC5A4900032516 /* AppDelegate.swift in Sources */,
+				CE9151422AEC5A4900032516 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE91514E2AEC5A4C00032516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9151572AEC5A4C00032516 /* LXCoreExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9151582AEC5A4C00032516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9151632AEC5A4C00032516 /* LXCoreExampleUITestsLaunchTests.swift in Sources */,
+				CE9151612AEC5A4C00032516 /* LXCoreExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEFF93B12958F1A100BFEA1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E01C9632AE6ABA30028900E /* LXBaseRepository.swift in Sources */,
+				4E01C9602AE6AB8B0028900E /* LXConstantsManager.swift in Sources */,
 				CEDE517429632BA900208C0A /* UITableView+Extensions.swift in Sources */,
+				CE9151342AEC534500032516 /* LXCoreActivityIndicatorView.swift in Sources */,
+				CE9151372AEC538800032516 /* LXCoreActivityIndicatorUserSpecifications.swift in Sources */,
+				CE91512C2AEC52E900032516 /* LXCoreConstraints.swift in Sources */,
 				CEDE516B29632A6D00208C0A /* String+Ext.swift in Sources */,
+				CE91512E2AEC52E900032516 /* LXCoreInputViewUserSpecifications.swift in Sources */,
 				CEDE517729632BC900208C0A /* UIView+Extensions.swift in Sources */,
+				CE9151302AEC52E900032516 /* LXCoreUIKitElementStyles.swift in Sources */,
+				4E01C96F2AE6AD250028900E /* LXNetworkResponse.swift in Sources */,
 				CEDE517D29632C0600208C0A /* UIImage+Extensions.swift in Sources */,
 				CEDE51472963232700208C0A /* UILabel+Extensions.swift in Sources */,
+				4E01C9662AE6ABC60028900E /* LXConstants.swift in Sources */,
 				CEDE517A29632BF300208C0A /* UICollectionView+Extensions.swift in Sources */,
 				CEDE514A296323A200208C0A /* UIDevice+Extensions.swift in Sources */,
+				4E01C9692AE6ABD90028900E /* LXTargetType.swift in Sources */,
+				CE91512D2AEC52E900032516 /* LXCoreInputView.swift in Sources */,
+				4E01C96C2AE6AC7C0028900E /* LXCodableService.swift in Sources */,
 				CEDE517129632B8100208C0A /* UIScrollView+Extensions.swift in Sources */,
 				CEFF93D22958F20900BFEA1F /* Double+Extensions.swift in Sources */,
+				CE9151352AEC534500032516 /* LXCoreGradientArcView.swift in Sources */,
 				CEDE514D2963240C00208C0A /* UIView+Nib.swift in Sources */,
-				CEBE5BED2A485F7200725239 /* LXNetworkLayer.swift in Sources */,
 				CEDE516E29632B0900208C0A /* Codable+Extended.swift in Sources */,
+				4E01C9722AE6AF960028900E /* LXCodableExtension.swift in Sources */,
 				CEFF93BA2958F1A100BFEA1F /* LXCore.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +764,7 @@
 				CEDE514E2963240C00208C0A /* UIView+Nib.swift in Sources */,
 				CEDE51482963232700208C0A /* UILabel+Extensions.swift in Sources */,
 				CEDE517B29632BF300208C0A /* UICollectionView+Extensions.swift in Sources */,
-				CEFF93C52958F1A100BFEA1F /* StringExtensionTests.swift in Sources */,
+				CEFF93C52958F1A100BFEA1F /* LXCoreTests.swift in Sources */,
 				CEDE517E29632C0600208C0A /* UIImage+Extensions.swift in Sources */,
 				CEDE517829632BC900208C0A /* UIView+Extensions.swift in Sources */,
 				CEDE517529632BA900208C0A /* UITableView+Extensions.swift in Sources */,
@@ -301,6 +778,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CE9151542AEC5A4C00032516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE91513C2AEC5A4900032516 /* LXCoreExample */;
+			targetProxy = CE9151532AEC5A4C00032516 /* PBXContainerItemProxy */;
+		};
+		CE91515E2AEC5A4C00032516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE91513C2AEC5A4900032516 /* LXCoreExample */;
+			targetProxy = CE91515D2AEC5A4C00032516 /* PBXContainerItemProxy */;
+		};
+		CE91516E2AEC5A9C00032516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFF93B42958F1A100BFEA1F /* LXCore */;
+			targetProxy = CE91516D2AEC5A9C00032516 /* PBXContainerItemProxy */;
+		};
 		CEFF93C22958F1A100BFEA1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CEFF93B42958F1A100BFEA1F /* LXCore */;
@@ -308,7 +800,183 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		CE9151452AEC5A4900032516 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9151462AEC5A4900032516 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE91514A2AEC5A4B00032516 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE91514B2AEC5A4B00032516 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		CE9151652AEC5A4C00032516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LXCoreExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = helix.LXCoreExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE9151662AEC5A4C00032516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LXCoreExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = helix.LXCoreExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE9151682AEC5A4C00032516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = helix.LXCoreExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXCoreExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LXCoreExample";
+			};
+			name = Debug;
+		};
+		CE9151692AEC5A4C00032516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = helix.LXCoreExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXCoreExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LXCoreExample";
+			};
+			name = Release;
+		};
+		CE91516B2AEC5A4C00032516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = helix.LXCoreExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXCoreExample;
+			};
+			name = Debug;
+		};
+		CE91516C2AEC5A4C00032516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = helix.LXCoreExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LXCoreExample;
+			};
+			name = Release;
+		};
 		CEFF93C72958F1A100BFEA1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -431,6 +1099,7 @@
 		};
 		CEFF93CA2958F1A100BFEA1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA4AA67C1396766C15E4A78 /* Pods-LXCore.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -459,6 +1128,7 @@
 		};
 		CEFF93CB2958F1A100BFEA1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A660ACC341C735B70C38A48 /* Pods-LXCore.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -487,6 +1157,7 @@
 		};
 		CEFF93CD2958F1A100BFEA1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82DCB89B91FF1965D8D77D53 /* Pods-LXCore-LXCoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +1175,7 @@
 		};
 		CEFF93CE2958F1A100BFEA1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B4DD7B8D815191DEC77EB2 /* Pods-LXCore-LXCoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +1194,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CE9151642AEC5A4C00032516 /* Build configuration list for PBXNativeTarget "LXCoreExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9151652AEC5A4C00032516 /* Debug */,
+				CE9151662AEC5A4C00032516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9151672AEC5A4C00032516 /* Build configuration list for PBXNativeTarget "LXCoreExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9151682AEC5A4C00032516 /* Debug */,
+				CE9151692AEC5A4C00032516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE91516A2AEC5A4C00032516 /* Build configuration list for PBXNativeTarget "LXCoreExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE91516B2AEC5A4C00032516 /* Debug */,
+				CE91516C2AEC5A4C00032516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CEFF93AF2958F1A100BFEA1F /* Build configuration list for PBXProject "LXCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

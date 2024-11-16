@@ -3,7 +3,7 @@
 //  LXCore
 //
 //  Created by Artak Gevorgyan on 02/Jan/23.
-//  Copyright © 2022 Artak Gevorgyan. All rights reserved.
+//  Copyright © 2022 Helix Consulting LLC. All rights reserved.
 //
 
 import UIKit
@@ -27,7 +27,15 @@ extension UITableViewHeaderFooterView {
 }
 
 extension UITableView {
-    func register<T: UITableViewCell>(_: T.Type) {
+    /**
+     Call this method to register cell of table view
+
+     ```
+     Usage:
+     myTableView.registerCell(MyTableViewCell.self)
+     ```
+     */
+    func registerCell<T: UITableViewCell>(_: T.Type) {
         let bundle = Bundle(for: T.self)
         
         let isIpad = UIDevice.current.userInterfaceIdiom == .pad
@@ -41,7 +49,15 @@ extension UITableView {
         register(nib, forCellReuseIdentifier: T.reuseIdentifier)
     }
 
-	func register<T: UITableViewHeaderFooterView>(_: T.Type) {
+    /**
+     Call this method to register header/footer view of table view
+
+     ```
+     Usage:
+     myTableView.registerHeaderFooterView(MyTableViewHeaderFooterView.self)
+     ```
+     */
+	func registerHeaderFooterView<T: UITableViewHeaderFooterView>(_: T.Type) {
 		let bundle = Bundle(for: T.self)
 		
 		let isIpad = UIDevice.current.userInterfaceIdiom == .pad
@@ -53,7 +69,20 @@ extension UITableView {
         let nib = UINib.init(nibName: nibName, bundle: bundle)
 		register(nib, forHeaderFooterViewReuseIdentifier: T.reuseIdentifier)
 	}
-    
+    /**
+     Call this method to register header/footer view of table view
+
+     ```
+     Usage:
+     myTableView.dequeueReusableCell(ofType: MyTableViewCell.self),
+     ```
+     */
+    func dequeueReusableCell<T: UITableViewCell>(ofType type: T.Type) -> T? {
+        let cellName = String(describing: T.self)
+
+        return dequeueReusableCell(withIdentifier: cellName) as? T
+    }
+
     func dequeueReusableCell<T: UITableViewCell>(forIndexPath indexPath: IndexPath) -> T {
         guard let cell = dequeueReusableCell(withIdentifier: T.reuseIdentifier, for: indexPath) as? T else {
             fatalError("Could not dequeue cell with identifier: \(T.reuseIdentifier)")
@@ -80,3 +109,4 @@ extension UITableViewCell {
 		return parentTableView?.indexPathForRow(at: self.center)
     }
 }
+// swiftlint:enable all

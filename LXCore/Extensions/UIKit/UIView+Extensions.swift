@@ -3,10 +3,11 @@
 //  LXCore
 //
 //  Created by Artak Gevorgyan on 02/Jan/23.
-//  Copyright © 2022 Artak Gevorgyan. All rights reserved.
+//  Copyright © 2022 Helix Consulting LLC. All rights reserved.
 //
 
 import UIKit
+
 // swiftlint:disable all
 extension UIView {
 //    func shake() {
@@ -70,4 +71,4 @@ extension UIView {
         layer.rasterizationScale = scale ? UIScreen.main.scale : 1
     }
 }
-
+// swiftlint:enable all

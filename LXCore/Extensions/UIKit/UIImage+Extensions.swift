@@ -2,8 +2,8 @@
 //  UIImage+Extensions.swift
 //  LXCore
 //
-//  Created by Artak Gevorgyan on 20/Dec/22.
-//  Copyright © 2022 Artak Gevorgyan. All rights reserved.
+//  Created by Vahagn Sargsyan on 20/Dec/22.
+//  Copyright © 2022 Helix Consulting. All rights reserved.
 //
 
 import UIKit
@@ -25,3 +25,4 @@ extension UIImage {
         }
     }
 }
+// swiftlint:enable all

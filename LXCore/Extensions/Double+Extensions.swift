@@ -3,7 +3,7 @@
 //  LXCore
 //
 //  Created by Artak Gevorgyan on 02/Jan/23.
-//  Copyright © 2022 Artak Gevorgyan. All rights reserved.
+//  Copyright © 2022 Helix Consulting LLC. All rights reserved.
 //
 
 import Foundation
@@ -19,3 +19,4 @@ extension Double {
     }
 
 }
+// swiftlint:enable all
