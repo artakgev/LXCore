@@ -94,6 +94,7 @@ class LXBaseRepository<T: LXTargetType> {
     func fetchData<M: Decodable>(target: T,
                                  responseClass: M.Type,
                                  encoding: URLEncoding = .default,
+                                 fromJsonFile: Bool = false,
                                  completionHandler: @escaping (Result<M, LXNetworkError>) -> Void) {
 
         // Temporary commented this. Should be uncomment asap
