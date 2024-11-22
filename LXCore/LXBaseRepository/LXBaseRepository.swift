@@ -2,7 +2,7 @@
 //  LXBaseRepository.swift
 //  LXCore
 //
-//  Created by Rafayel Aghayan on 23.10.23.
+//  Created by Artak Gevorgyan on 23.10.23.
 //
 
 import Alamofire

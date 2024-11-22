@@ -3,7 +3,7 @@
 //  LXCore
 //
 //  Created by Artak Gevorgyan on 22.10.23.
-//  Copyright © 2023 Helix Consulting LLC. All rights reserved.
+//  Copyright © 2023 Artak Gevorgyan LLC. All rights reserved.
 //
 
 import Foundation

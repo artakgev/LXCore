@@ -2,8 +2,8 @@
 //  LXCoreActivityIndicatorView.swift
 //  Tiptop
 //
-//  Created by Rafayel Aghayan on 03.11.23.
-//  Copyright © 2023 Helix Consulting LLC. All rights reserved.
+//  Created by Artak Gevorgyan on 03.11.23.
+//  Copyright © 2023 Artak Gevorgyan LLC. All rights reserved.
 //
 
 import UIKit
