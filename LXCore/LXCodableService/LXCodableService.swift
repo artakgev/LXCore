@@ -77,10 +77,19 @@ class LXCodableService {
                                                                         debugDescription: "Cannot find value/key at root level."))
             }
             if let _ = decoder.userInfo[.asCollection] {
-                values = try container.decode(Array<T>.self, forKey: key)
+                do {
+                    values = try container.decode(Array<T>.self, forKey: key)
+                } catch {
+                    print(error.localizedDescription)
+                }
+
                 return
             }
-            value = try container.decode(T.self, forKey: key)
+            do {
+                value = try container.decode(T.self, forKey: key)
+            } catch {
+                print(error.localizedDescription)
+            }
         }
     }
     

@@ -96,17 +96,21 @@ class LXBaseRepository<T: LXTargetType> {
                                  encoding: URLEncoding = .default,
                                  completionHandler: @escaping (Result<M, LXNetworkError>) -> Void) {
 
-        let url = target.baseURL + target.path + "?" + self.constructRequiredParams()
+        // Temporary commented this. Should be uncomment asap
+        let url = target.baseURL// + target.path + "?" + self.constructRequiredParams()
         let headers = Alamofire.HTTPHeaders(target.headers ?? [:])
         let method = Alamofire.HTTPMethod(rawValue: target.method.rawValue)
         var parameters = buildParams(task: target.task)
         var finalParams = parameters.0
         self.printRequestDetails(url, headers, method, parameters)
-        AF.request(url,
-                   method: method,
-                   parameters: finalParams,
-                   encoding: encoding,
-                   headers: headers).response { (responseObject) in
+        // Temporary commented this. Should be uncomment asap
+//        AF.request(url,
+//                   method: method,
+//                   parameters: finalParams,
+//                   encoding: encoding,
+//                   headers: headers).response { (responseObject) in
+        AF.request(url).responseJSON { (responseObject) in
+
             guard let safeResponseObj = responseObject.response else {
                 let message = LXConstantsManager.shared.getLXCurrentError(.defaultError)
                 completionHandler(.failure(LXNetworkError.init(code: -1, message: message)))

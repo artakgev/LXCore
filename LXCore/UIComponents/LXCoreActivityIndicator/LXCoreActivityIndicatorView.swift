@@ -81,25 +81,26 @@ class LXCoreActivityIndicatorView: UIView {
     }
 
     private func addBlurredBgViewIfNeed() {
-        let specs = LXCoreActivityIndicatorUserSpecifications.shared
-        if specs.isNeedBlurredBackground {
-            let blurredView = UIView()
-            let blurEffect = UIBlurEffect(style: .light)
-            let customBlurEffectView = CustomVisualEffectView(effect: blurEffect, intensity: 0.2)
-            customBlurEffectView.frame = self.bounds
-            // 3. create semi-transparent black view
-            let dimmedView = UIView()
-            dimmedView.backgroundColor = .black.withAlphaComponent(0.2)
-            dimmedView.frame = self.bounds
-
-            // 4. add both as subviews
-            blurredView.addSubview(customBlurEffectView)
-            blurredView.addSubview(dimmedView)
-
-            self.addSubview(blurredView)
-            self.sendSubviewToBack(blurredView)
-
-        }
+        // Temporary commented this. Should be uncommented asap
+//        let specs = LXCoreActivityIndicatorUserSpecifications.shared
+//        if specs.isNeedBlurredBackground {
+//            let blurredView = UIView()
+//            let blurEffect = UIBlurEffect(style: .light)
+//            let customBlurEffectView = CustomVisualEffectView(effect: blurEffect, intensity: 0.2)
+//            customBlurEffectView.frame = self.bounds
+//            // 3. create semi-transparent black view
+//            let dimmedView = UIView()
+//            dimmedView.backgroundColor = .black.withAlphaComponent(0.2)
+//            dimmedView.frame = self.bounds
+//
+//            // 4. add both as subviews
+//            blurredView.addSubview(customBlurEffectView)
+//            blurredView.addSubview(dimmedView)
+//
+//            self.addSubview(blurredView)
+//            self.sendSubviewToBack(blurredView)
+//
+//        }
     }
 
     private func internalStartAnimating() {

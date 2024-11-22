@@ -14,7 +14,8 @@ enum LXGlobalRepoParams {
     
     var value: String {
         switch self {
-        case .baseURL: return (LXConstantsManager.shared.getLXBaseUrl() ?? "") + "\(LXConstantsManager.shared.getLXLanguage() ?? "")/"
+// Temporary commented this, Should be uncomment asap
+        case .baseURL: return (LXConstantsManager.shared.getLXBaseUrl() ?? "")// + "\(LXConstantsManager.shared.getLXLanguage() ?? "")/"
         case .baseAuthorization: return  "Authorization"
         }
     }
@@ -61,6 +62,6 @@ struct LXEnvironmentConstants {
                                   LXConstantsManager.shared.getLXEnvironment() == .tfTest)
 
     static var defaultLengthOfAmountField: Int = 15
-    
-    static var responseDefaultKeyPath: String = "data"
+    // Temporary changed to recipes, should be added functionality to set it via interface
+    static var responseDefaultKeyPath: String = "recipes"
 }
